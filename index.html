@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
 		<link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
     </head>
+    <header id="masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="index.html" id="logo">Your Name</a>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2">
+                        <div style="margin-top:20px">
+                            <a href="index.html">About</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div style="margin-top:20px">
+                            <a href="portfolio.html">Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div style="margin-top:20px">
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+          </header>
     <body>
-        <header>
-            <div class="page-title">Oudom So</div>
-            <div class="links">
-                <a href="index.html" >About</a>
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-            </div>
+        
+
+        <div id="main-container" class="container">
+            <section class="main-section">
+                    <h1>About Me</h1>
+                    <img class= "auth-image" src="assets/images/profile.jpg">
+                    <p style="font-weight: bold; font-size: 40px; text-align: center; font-family: 'Tangerine', serif; "> Hi my name is Oudom, I am currently a student at the university of Minnesota, studying computer engineering. 
+                            In the future, I hope to be one of the leading pioneer in computer hardware developing world. My main interest lies in embedded systems which can be found in storage devices such as a solid state drive and flash memory etc. </p>
+            </section>
             
-        </header>
-        <section>
-            <div class="main-content">
-                <h1>About Me</h1>
-				<div class ="picture" ><img width="300" src="assets/images/profile.jpg"/></div>
-				<p style="font-family: 'Tangerine', serif;"> Hi my name is Oudom, I am currently a student at the university of Minnesota, studying computer engineering. 
-				In the future, I hope to be one of the leading pioneer in computer hardware developing world. My main interest lies in embedded systems which can be found in storage devices such as a solid state drive and flash memory etc. </p>
-            </div>
-        </section>
+        </div>
+        
         <footer>
-            <div class="copyright"> Copy Right &copy </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="copyright"> Copy Right &copy </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

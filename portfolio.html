@@ -2,39 +2,79 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
-    <body>
-        <header>
-            <div class="page-title">Oudom So</div>
-            <div class="links">
-                <a href="index.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
+    <header id="masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="index.html" id="logo">Your Name</a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <div style="margin-top:20px">
+                        <a href="index.html">About</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div style="margin-top:20px">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div style="margin-top:20px">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>  
             </div>
-            
-        </header>
-        <section>
-            <div class="main-content">
-                <h1>Portfolio</h1>
-                <div class="project-wrapper">
-                    <figure>
-                        <img src="assets/images/injury.jpg" alt="Trulli" style="width:50%">
-                        <figcaption>I got his injury from long boarding. (don't have time to find actual portfolio material will work on it later)</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="assets/images/shrimp.jpg" alt="Trulli" style="width:50%">
-                        <figcaption>I like to cook shrimp. (don't have time to find actual portfolio material will work on it later)</figcaption>
-                    </figure>
-                    <figure>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/I8KjiVtZXGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <figcaption>Video of me doing nun chuck from 3 years ago.</figcaption>
-                    </figure>
+        </div>
+      </header>
+    <body>
+        <div id="main-container" class="container">
+            <section class="main-section">
+                
+                <div class='row' >
+                    <div class='col-md-5'></div>
+                    <div class='col-md'>
+                        <h1>Portfolio</h1>
+                    </div>
+                    <div class='col-md-5'></div>
                     
                 </div>
-            </div>
-        </section>
+                    <div class = 'row'>
+                        
+                        <div class='col-md-4'>
+                            <div class="work">
+                                <img src="assets/images/injury.jpg">
+                                <h4>I got his injury from long boarding. (don't have time to find actual portfolio material will work on it later)</h4>
+                            </div>
+                        </div>
+                        <div class='col-md-4'>
+                            <div class="work">
+                                <img src="assets/images/shrimp.jpg">
+                                <h4>I like to cook shrimp. (don't have time to find actual portfolio material will work on it later)</h4>
+                            </div>
+                        </div>
+                        <div class='col-md-4'>
+                                <iframe width=274px height=50% src="https://www.youtube.com/embed/I8KjiVtZXGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h4>Video of me doing nun chuck from 3 years ago.</h4>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                 
+            
+            </section>
+            
+        </div>
         <footer>
-            <div class="copyright"> Copy Right &copy </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="copyright"> Copy Right &copy </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
